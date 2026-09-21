@@ -1,0 +1,51 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+Logo.png -text
+"b-Module-2D/装配体 (草图).dwg" -text
+b-Module-2D/装配体.dwg -text
+b-Module-2D/轴2.dwg -text
+b-Module-2D/齿轮T4.dwg -text
+b-Module-2D/齿轮箱.dwg -text
+b-Module-SE/1型六角螺母-GBT41-2016_M12.par -text
+b-Module-SE/内六角圆柱头螺钉-GBT70.1-2008_M3X12.par -text
+b-Module-SE/内六角圆柱头螺钉-GBT70.1-2008_M5X16.par -text
+b-Module-SE/卡簧1.par -text
+"b-Module-SE/卡簧3 (2).par" -text
+b-Module-SE/卡簧3.par -text
+b-Module-SE/垫片.par -text
+b-Module-SE/套筒1.par -text
+b-Module-SE/套筒2.par -text
+b-Module-SE/套筒3.par -text
+b-Module-SE/套筒4.par -text
+b-Module-SE/端盖.par -text
+b-Module-SE/端盖2.par -text
+b-Module-SE/端盖3.par -text
+b-Module-SE/装配体.asm -text
+b-Module-SE/装配体.cfg -text
+b-Module-SE/轴1.par -text
+b-Module-SE/轴2.par -text
+b-Module-SE/轴3.par -text
+b-Module-SE/轴承1.par -text
+b-Module-SE/轴承2.par -text
+b-Module-SE/轴承3.par -text
+b-Module-SE/零件4齿轮T2.par -text
+b-Module-SE/齿轮T1.par -text
+b-Module-SE/齿轮T3.par -text
+b-Module-SE/齿轮T4.dft -text
+b-Module-SE/齿轮T4.par -text
+b-Module-SE/齿轮箱.par -text
+b-Office/机械设计课程设计说明书.docx -text
+b-Office/设计说明书.pdf -text
+b-Picture/效果图.png -text
+b-References/MS1-R系列伺服电机选型手册-CN-B02.PDF -text
+b-References/机械设计课程设计任务书(机器人2020).doc -text
+"b-References/机械设计课程设计指导 (2).docx" -text
+b-References/机械设计课程设计模板-模型.pdf -text
+b-References/机械设计课程设计模板.pdf -text
+b-References/机械设计课程设计模板2-模型.pdf -text
+b-References/机械设计课程设计课程设计封面及内页模板.doc -text
+b-References/机械设计课程设计辅导-结构设计改.pptx -text
+b-References/机械设计课程设计辅导改.pptx -text
+b-References/结构设计.docx -text
